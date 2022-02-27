@@ -5,7 +5,7 @@ using ZaMetka.Model;
 
 namespace ZaMetka.Data
 {
-    internal class NotesDB
+    public class NotesDB
     {
         readonly SQLiteAsyncConnection db;
 

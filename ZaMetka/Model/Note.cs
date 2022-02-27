@@ -5,7 +5,7 @@ using SQLite;
 
 namespace ZaMetka.Model
 {
-    internal class Note
+    public class Note
     {
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
